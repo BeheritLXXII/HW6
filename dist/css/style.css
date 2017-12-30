@@ -1,0 +1,75 @@
+.Button {
+  text-align: center;
+  padding-top: 20px;
+}
+.Button-item {
+  height: 35px;
+  width: 75px;
+  font-size: 18px;
+  font-weight: bold;
+  background: lightblue;
+  color: #fff;
+}
+.Button-submit {
+  height: 35px;
+  width: 200px;
+  font-size: 18px;
+  font-weight: bold;
+  background: lightblue;
+  color: #fff;
+}
+.Card {
+  margin: 0 auto;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.5);
+  background: #e0ffff;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.Card--row {
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Card--row .Card-image {
+  width: auto;
+}
+.Card-photoContainer {
+  text-align: center;
+}
+.Card-image {
+  width: 100%;
+}
+.Card-body {
+  padding: 20px;
+}
+.Card-form {
+  text-align: center;
+  padding: 20px;
+}
+.Card-form p {
+  margin: 20px 0 0;
+}
+.Card-form p:first-child {
+  margin-top: 0;
+}
+.Card-form input {
+  width: 250px;
+  font-size: 18px;
+  margin: 5px;
+  padding: 0 10px;
+  height: 35px;
+  color: #404040;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.Card-form input[placeholder] {
+  text-align: center;
+}
+.u-width400 {
+  width: 400px;
+}
+.u-width800 {
+  width: 800px;
+}
